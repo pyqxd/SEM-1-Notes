@@ -161,11 +161,11 @@ The **CPU** is called **_the brain of computer_** as it controls operation of al
         
     - **Characteristics:** It fetches instructions from the memory, decodes them, and directs the flow of data between the CPU, memory, and I/O devices. It controls the timing of operations and ensures that all tasks are executed in the correct sequence.
  
-![cpu](Pasted image 20251006215926.png)
+![cpu](cpu.png)
 
 ### 1.8) The Memory Hierarchy
 
-![Memory Hierarchy Diagram](Pasted image 20251006215648.png)
+![memory](memory.png)
 
 - **Top of the Pyramid:** Fastest speed, smallest capacity, highest cost.
     
