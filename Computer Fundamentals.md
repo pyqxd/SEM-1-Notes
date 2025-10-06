@@ -55,8 +55,7 @@ A computer is an electronic device that can accept data as input, process it acc
     
     - **Technology:** **Transistors** replaced vacuum tubes. Transistors were a major breakthrough as they were smaller, faster, cheaper, more energy-efficient, and more reliable than vacuum tubes.
         
-    - **Characteristics:** Second-generation computers were smaller, faster, and more reliable than the first generation. They also moved from complex binary machine language to symbolic, or **a2.2 Types of Computers
-ssembly languages**, which allowed programmers to write instructions using words instead of just numbers.
+    - **Characteristics:** Second-generation computers were smaller, faster, and more reliable than the first generation. They also moved from complex binary machine language to symbolic, which allowed programmers to write instructions using words instead of just numbers.
         
 - **Third Generation (1964-1971): Integrated Circuits (IC)**
     
