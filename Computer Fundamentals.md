@@ -1047,3 +1047,33 @@ Networks make it easier for viruses to spread.
 - **Viruses on Networks:** Spread rapidly through shared folders, email, and unpatched system vulnerabilities.
 ---
 ---
+
+
+#### Q. Write a program in Python, JavaScript, C, and C++ to print the phrase 'Hello, World!'
+
+1) **Python:**
+```
+print("Hello, World!")
+```
+
+2) **C:**
+```
+#include <stdio.h>
+int main() {
+printf("Hello, World!\n");
+return 0;
+}
+```
+
+3) **C++:**
+```
+#include <iostream>
+int main() {
+std::cout << "Hello, World!" << std::endl;
+return 0;
+}
+```
+4) **Javascript:**
+```
+console.log("Hello, World!");
+```
