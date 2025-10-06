@@ -939,7 +939,7 @@ Networks make it easier for viruses to spread.
 
 ---
 
-### ## 💿 Storage Device Types
+### Storage Device Types
 
 - **Magnetic Storage:** Uses magnetism.
     
