@@ -454,3 +454,596 @@ The CPU controls all computer operations and has two main parts:
 - **Output Devices:** Display processed information _from_ the computer.
     
     - **Examples:** Monitor (VDU), Printer, Speakers, Plotter.
+    - 
+
+---
+---
+### *Module - 2*
+
+## 2.1) Primary vs. Secondary Storage
+
+
+| Feature               | Primary Storage                                                  | Secondary Storage                                                                                       |
+| --------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Also Known As**     | Main memory, internal memory                                     | Auxiliary memory, external memory                                                                       |
+| **Volatility**        | Volatile (data is lost when power is off)                        | Non-volatile (data is retained without power)                                                           |
+| **Access Speed**      | Very fast                                                        | Slower than primary storage                                                                             |
+| **CPU Accessibility** | Directly accessible by the CPU                                   | Not directly accessible by the CPU                                                                      |
+| **Capacity**          | Smaller capacity                                                 | Larger capacity                                                                                         |
+| **Cost**              | More expensive per gigabyte                                      | Less expensive per gigabyte                                                                             |
+| **Examples**          | RAM (Random Access Memory), Cache Memory, ROM (Read-Only Memory) | Hard Disk Drives (HDD), Solid-State Drives (SSD), CDs, DVDs, Blu-ray Discs, Flash Drives, Magnetic Tape |
+
+
+---
+
+### 2.2) Magnetic Storage Devices
+
+Magnetic storage devices use magnetism to store data on a magnetized medium.
+
+#### Magnetic Tape
+
+This is one of the oldest forms of data storage. It consists of a long strip of plastic film with a magnetic coating. Data is recorded sequentially, meaning that to access data in the middle of the tape, you must first read through all the preceding data.
+
+- **Use Cases:** Primarily used for data archiving and backups due to its high capacity and low cost.
+    
+- **Modern Formats:** Often found in cartridges and cassettes.
+
+#### Magnetic Disks
+
+These are flat, circular platters coated with a magnetic material. Data can be accessed directly (random access), which is much faster than the sequential access of magnetic tape.
+
+#### Hard Disk Drives (HDDs)
+
+A hard disk drive contains one or more rigid, rapidly rotating platters coated with magnetic material. A read/write head on a movable arm accesses the data.
+
+- **"Winchester" Disk:** This is another name for a hard disk drive.
+    
+
+#### Floppy Disks
+
+Now largely obsolete, a floppy disk is a thin, flexible magnetic disk enclosed in a square plastic shell. They were used for transferring files between computers and for small-scale data backup.
+
+#### Cartridge Tape
+
+A single reel of magnetic tape housed in a plastic case. It offers a more convenient and protected way to handle magnetic tape.
+
+#### Zip Drive
+
+A now-discontinued medium-capacity removable disk storage system. It was a popular alternative to floppy disks in the late 1990s and early 2000s, offering higher storage capacities.
+
+---
+
+### 2.3) Optical Storage Devices
+
+Optical storage devices use lasers to read and write data from a disc. The data is stored as a series of microscopic pits and lands on the surface of the disc.
+
+#### Compact Disc (CD)
+
+The first widely adopted optical disc format. A standard CD can hold about 700 MB of data.
+
+- **Video CD (VCD):** A standard for storing video on a compact disc.
+    
+- **CD-R (Recordable):** A type of CD that can be written to once.
+    
+- **CD-RW (ReWritable):** A CD that can be written to, erased, and rewritten multiple times.
+    
+
+#### Video Disk
+
+A general term for a disc that contains both audio and analog video signals. This term often refers to formats that predate the DVD.
+
+#### Blu-ray Disc
+
+A high-capacity optical disc format that uses a blue-violet laser to read and write data. This allows for much higher storage densities than DVDs, making it ideal for high-definition video.
+
+---
+
+### 2.4) Flash Memory Devices
+
+Flash memory is a type of non-volatile memory that can be electrically erased and reprogrammed. It is a type of EEPROM (Electrically Erasable Programmable Read-Only Memory).
+
+#### Flash Drives (USB Drives, Pen Drives)
+
+Portable storage devices that use flash memory and have a built-in USB interface. They are known for their portability, durability, and ease of use.
+
+#### SD/MMC Memory Cards
+
+- **SD (Secure Digital) Card:** A small flash memory card used in a variety of portable devices like cameras, smartphones, and tablets.
+    
+- **MMC (MultiMediaCard):** A flash memory card standard that is now largely superseded by SD cards.
+
+### 2.5) Software and its Need
+
+#### **Definition of Software**
+
+**Software** is all the programs and instructions that tell a computer what to do. It’s the part you can’t touch, but it controls the hardware. Basically, software takes what you want the computer to do and turns it into commands the hardware can follow. Without software, the hardware can’t work.
+
+#### **The Need for Software**
+
+Software is important because it connects the computer’s hardware, which works in a low-level, technical way, to what humans actually want the computer to do. Its main purposes are:
+
+- **Hardware Abstraction:** Software hides the complicated parts of the hardware from you. You don’t need to know how the CPU works or how data is stored on the hard drive; the software takes care of that.
+    
+- **Resource Management:** Software manages the computer’s key resources—CPU, memory, storage, and devices—making sure they are used efficiently for different tasks.
+    
+- **User Interface:** Software gives a way for users to communicate with the computer, either by typing commands (CLI) or using visuals like windows and icons (GUI).
+    
+- **Functionality and Utility:** Software gives the tools you need to do tasks, from basic calculations to creating content, analyzing data, and communicating.
+    
+
+---
+
+### 2.6) Types of Software
+
+Software is broadly classified into two main categories based on its function and user interaction: **System Software** and **Application Software**.
+
+| Basis for Comparison | System Software                                                                                             | Application Software                                                                                   |
+| -------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Primary Purpose**  | To provide a platform for other software to run and to manage the computer's hardware resources.            | To perform a specific task or a set of tasks for the end-user.                                         |
+| **User Interaction** | Generally operates in the background with minimal direct user interaction.                                  | The user directly interacts with the software's interface to perform tasks.                            |
+| **Dependency**       | Application software is dependent on system software to function.                                           | It is not essential for the basic functioning of the computer itself.                                  |
+| **Generality**       | General-purpose; it is not designed for a specific user task but for the overall operation of the computer. | Specific-purpose; it is designed with a specific function in mind (e.g., accounting, word processing). |
+| **Examples**         | Operating Systems (Windows, Linux), Compilers, Device Drivers, Utility Programs.                            | Microsoft Word, Google Chrome, Photoshop, VLC Media Player.                                            |
+
+
+---
+
+### 2.7) System Software in Detail
+
+System software is responsible for the core operation and management of the computer system. It is further divided into two key types:
+
+#### **A. Operating System (OS)**
+
+An **Operating System** is the most critical piece of system software. It acts as the central coordinator and interface between the computer hardware and all other software (both system and application).
+
+**Major Functions of an Operating System:**
+
+1. **Process Management:** The OS controls how programs run. It schedules tasks for the CPU, starts and stops processes, and helps them communicate and work together smoothly.
+    
+2. **Memory Management:** Manages the computer's primary memory (RAM). It allocates and de-allocates memory space as required by programs, keeps track of which parts of memory are currently being used and by whom, and swaps processes between memory and disk when RAM is not large enough to hold them all.
+    
+3. **File Management:** Organizes and manages files and directories on storage devices. It controls the creation, deletion, naming, and access control of files, ensuring data integrity.
+    
+4. **Device (I/O) Management:** Manages all input/output devices connected to the computer, such as keyboards, mice, printers, and disk drives. It controls the communication with these devices through their respective drivers.
+    
+5. **Security and Access Control:** Protects the system's resources from unauthorized access by implementing user authentication (e.g., passwords) and access rights.
+    
+6. **User Interface:** Provides a way for the user to interact with the computer. This can be a **Command-Line Interface (CLI)**, where users type commands, or a **Graphical User Interface (GUI)**, which uses icons, windows, and menus.
+    
+
+#### **B. Utility Program**
+
+**Utility Programs** are a type of system software designed to support, analyze, configure, optimize, and maintain the computer. They perform specific tasks that assist the OS in managing the system, but they are not part of the core OS itself.
+
+
+### 2.8) Programming Languages
+
+A **programming language** is a set of rules and instructions used to tell a computer what to do. It lets a programmer write commands (a program) that the computer can run. Programming languages are mainly divided into two types, based on how close they are to the hardware.
+
+#### **A. Low-Level Languages**
+
+These languages provide little to no abstraction from the computer's hardware architecture. They are machine-oriented and require a deep understanding of the hardware.
+
+**1. Machine Language (First Generation)**
+
+- **Description:** This is the most fundamental language, consisting of binary code (sequences of 0s and 1s). It is the only language that the CPU can directly understand and execute.
+    
+-  **Merits:**
+    
+    - **Fastest Execution:** No translation is needed, so it runs directly on the hardware, making it extremely fast.
+        
+    - **Direct Hardware Control:** Offers complete and direct control over all parts of the computer hardware.
+        
+- **Demerits:**
+    
+    - **Extremely Difficult to Learn:** Writing, reading, and debugging binary code is a tedious and error-prone process for humans.
+        
+    - **Machine-Dependent:** A program written in machine language for one computer architecture will not work on another.
+        
+- **Application:** In modern programming, developers almost never write in machine language directly. It is the final target output of translators like compilers and assemblers.
+
+**2. Assembly Language (Second Generation)**
+
+- **Description:** Assembly language is a step above machine language. It uses symbolic codes called **mnemonics** (e.g., `ADD` for addition, `MOV` for move data, `SUB` for subtraction) to represent machine-level operations.
+    
+- **Merits:**
+    
+    - **Faster and More Efficient:** Still very close to the hardware, allowing for highly optimized and fast code.
+        
+    - **Readable:** Easier to read, write, and understand than binary machine code.
+        
+- **Demerits:**
+    
+    - **Machine-Dependent:** Like machine language, it is tied to a specific CPU architecture.
+        
+    - **Requires Deep Hardware Knowledge:** The programmer must understand the computer's architecture in detail.
+        
+    - **Needs a Translator:** Requires an **assembler** to translate the mnemonics into machine code.
+        
+- **Application:**
+    
+    - **Embedded Systems:** Software for devices with limited resources, like in a microwave or washing machine.
+
+#### **B. High-Level Languages (Third Generation & Beyond)**
+
+High-level languages are designed to be user-friendly, with a high level of abstraction from the hardware details. Their syntax is often similar to English.
+
+- **Description:** These languages let programmers concentrate on solving problems without worrying about the details of how the hardware works.
+    
+- **Merits:**
+    
+    - **Easy to Learn and Use:** The syntax is much closer to human language, making it easier to write, read, and maintain.
+        
+    - **Machine-Independent (Portable):** A program written in a high-level language can be run on different types of computers with little or no modification.
+        
+    - **Faster Development:** It's easier to find and fix errors, and development time is significantly reduced.
+        
+- **Demerits:**
+    
+    - **Slower Execution:** The code must be translated into machine language by a **compiler** or **interpreter**, which adds overhead and results in slower execution compared to low-level languages.
+        
+    - **Less Direct Hardware Control:** The abstraction makes it harder to control hardware at a very fine-grained level.
+        
+- **Application:**
+    
+    - **Web Development:** (e.g., Python, JavaScript, PHP)
+
+---
+
+### 2.9) Language Translators
+
+A language translator is a system program that converts source code written by a programmer into machine code that the CPU can execute. There are three primary types of translators.
+
+#### **A. Assembler**
+
+An **assembler** is a translator specifically designed to convert **assembly language** code into its equivalent machine code. It performs a one-to-one translation, where one mnemonic instruction in assembly language corresponds directly to one binary instruction in machine language.
+
+- **Input:** Assembly Language Code (Source Code)
+    
+- **Output:** Machine Code (Object Code)
+
+#### **B. Compiler**
+
+A **compiler** is a translator that converts an entire program written in a **high-level language** into machine code **all at once**.
+
+**How a Compiler Works:**
+
+1. It takes the complete source code file as input.
+    
+2. It scans the entire program and performs lexical, syntax, and semantic analysis to check for errors.
+    
+3. If there are no errors, it generates an intermediate file called **object code**.
+    
+4. Finally, it creates a standalone **executable file** (`.exe` in Windows) that can be run independently without the need for the compiler or the original source code.
+    
+5. If errors are found, it generates a list of all errors and their line numbers after scanning the whole program.
+    
+
+- **Execution Speed:** Fast, because the translation process is completed before execution.
+    
+- **Debugging:** Can be more difficult for beginners as errors are listed only after the entire program has been compiled.
+    
+- **Examples of Compiled Languages:** C, C++, Go, Rust.
+    
+
+#### **C. Interpreter**
+
+An **interpreter** is a translator that converts and executes a program written in a **high-level language** one statement at a time.
+
+**How an Interpreter Works:**
+
+1. It takes the first line of the source code.
+    
+2. It translates this line into an intermediate code or machine code.
+    
+3. It executes the translated code immediately.
+    
+4. It then moves to the next line and repeats the process until the end of the program.
+    
+5. If an error is found on a line, it stops execution immediately and reports the error.
+    
+
+- **Execution Speed:** Slower than a compiled program because translation and execution occur for each line, every time the program is run.
+    
+- **Debugging:** Easier, as the interpreter identifies an error on the exact line where it occurs, halting further execution.
+    
+- **No Executable File:** It does not produce a standalone executable file. The interpreter must be present on the machine to run the program.
+    
+- **Examples of Interpreted Languages:** Python, JavaScript, Ruby, PHP.
+    
+
+---
+
+### 2.10) Compiler vs. Interpreter: Key Differences
+
+|Feature|Compiler|Interpreter|
+|---|---|---|
+|**Translation Method**|Translates the entire program at once, before execution.|Translates and executes the program line by line.|
+|**Execution Speed**|Faster, as the code is already converted to machine language.|Slower, due to the real-time, line-by-line translation process.|
+|**Error Detection**|Displays all errors and warnings after scanning the entire program.|Stops at the first error encountered and reports it.|
+|**Intermediate Code**|Generates an intermediate object code file.|Does not generate any intermediate object code.|
+|**Program Execution**|Generates a standalone executable file that can be run directly.|Requires the interpreter to be present each time the program is run.|
+|**Memory Requirement**|Requires more memory during compilation to generate object code.|Requires less memory as it does not generate intermediate code.|
+|**Suitable For**|Large applications where performance is critical.|Scripting, rapid development, and web applications where ease of debugging is important.|
+
+### 2.11) Introduction to PC Operating Systems
+
+An **Operating System (OS)** is the core software that manages all the hardware and software on a computer. It acts as an intermediary between the user and the computer's hardware, providing a user interface and controlling system resources. For Personal Computers (PCs), several key operating systems have defined the user experience over the decades.
+
+---
+
+### 1. DOS (Disk Operating System)
+
+**DOS** was one of the earliest and most influential operating systems for the first generation of PCs, most notably with **MS-DOS** (Microsoft Disk Operating System) which was the standard for IBM PC compatible hardware.
+
+- **User Interface:** DOS uses a **Command-Line Interface (CLI)**. Users interact with the computer by typing specific text commands. There are no icons, windows, or mouse-driven interactions.
+    
+- **Key Characteristics:**
+    
+    - **Single-Tasking:** It could only run one program at a time. To run a new program, the current one had to be closed.
+        
+    - **Single-User:** It was designed for a single user to operate the machine.
+        
+    - **Non-graphical:** The interface was entirely text-based.
+        
+- **Legacy:** While no longer used as a primary OS, the principles of DOS live on in the **Windows Command Prompt** and **PowerShell**, which are still used by developers and system administrators for advanced tasks.
+    
+
+---
+
+### 2. Microsoft Windows
+
+Microsoft Windows evolved from a graphical shell running on top of MS-DOS into a complete, standalone operating system. It revolutionized the PC market by making computers accessible to a non-technical audience.
+
+- **User Interface:** Windows is defined by its **Graphical User Interface (GUI)**. It uses a metaphor of a desktop with windows, icons, menus, and a pointer (controlled by a mouse), often abbreviated as "WIMP". This allows for intuitive, visual interaction.
+    
+- **Key Characteristics:**
+    
+    - **Multi-tasking:** Allows multiple programs to run simultaneously, each in its own window.
+        
+    - **Graphical:** The user experience is primarily visual and pointer-driven, making it easy to learn.
+        
+    - **Plug and Play:** Greatly simplified the process of adding new hardware (like printers or webcams) to a PC.
+        
+    - **Dominant Market Share:** It is the most widely used desktop operating system in the world.
+
+---
+
+### 3. Linux
+
+**Linux** is actually a **kernel**, the core part of an operating system, not a full OS by itself. It forms the base for many open-source operating systems called **Linux distributions**.
+
+- **User Interface:** Linux is highly flexible. It can operate with just a **CLI** (common for servers) or with a variety of highly customizable **GUIs**, known as **desktop environments**. This allows users to choose an interface that suits their workflow.
+    
+- **Key Characteristics:**
+    
+    - **Open Source:** Its source code is freely available for anyone to view, modify, and distribute. This fosters a strong community of developers and a high degree of transparency.
+        
+    - **Customizable and Versatile:** Users can modify everything from the kernel to the look and feel of the desktop. It powers everything from smartphones (Android is built on the Linux kernel) and desktops to servers and supercomputers.
+        
+    - **Security and Stability:** It is widely regarded as a very stable and secure operating system, which is why it is the dominant choice for web servers and other critical infrastructure.
+
+
+### 2.12) File Allocation Table (FAT & FAT32)
+
+The **FAT** file system is the original, simplest way to organize data on a disk, designed for broad compatibility (USB drives, memory cards).
+
+#### The FAT Structure
+
+- **File Allocation Table (FAT):** A central table that acts like a **linked list**. It keeps track of a file's location by pointing from one disk cluster to the next until the end of the file is reached.
+    
+- **Directory Entries:** A fixed-size record for each file and folder. It stores the file's name, size, attributes (like read-only), and the address of the **first cluster** in the FAT.
+    
+- **Clusters:** The smallest units of disk space allocated to files.
+    
+
+#### Key Differences (FAT32)
+
+- **FAT32** is the modern version of FAT. It uses larger entries (32-bit) to support much bigger disks (up to **2 TB**) and larger files (up to **4 GB**).
+    
+
+#### Naming Rules
+
+|Feature|Original FAT (8.3 Naming)|Modern FAT (LFN/VFAT)|
+|---|---|---|
+|**Length**|**8** characters for the name, **3** characters for the extension.|Up to **255 characters** (including the path).|
+|**Spaces**|**Not allowed**.|**Allowed**.|
+|**Case**|All names converted to **uppercase**.|**Case-preserving** (displays case, but is not case-sensitive).|
+|**Purpose**|Used for backward compatibility with older systems.|Used by modern Windows for easy-to-read, descriptive names.|
+
+### 2.13) DOS Booting Process
+
+When a DOS computer starts, the **BIOS** runs a quick hardware check (**POST**). It then finds the boot disk and loads the core system files, **`IO.SYS`** and **`MSDOS.SYS`**. Finally, it loads **`COMMAND.COM`**, which is the command interpreter that gives you the `C:\>` prompt.
+
+---
+
+### Windows Booting Process
+
+On a modern Windows PC, the firmware (**UEFI/BIOS**) first runs the **POST** hardware check. It then starts the **Windows Boot Manager**, which reads the boot configuration. The Boot Manager loads the Windows **kernel** (`ntoskrnl.exe`) and essential drivers. This process continues until it starts the **logon screen**, where you can sign in to your account.
+
+---
+
+### DOS System Files
+
+These three files were essential for DOS to run:
+
+- **`IO.SYS`**: Handled basic communication with hardware (input/output).
+    
+- **`MSDOS.SYS`**: The core "kernel" of the operating system that managed files and programs.
+    
+- **`COMMAND.COM`**: The command interpreter (shell) that provided the command prompt and ran your commands.
+
+### 2.14) Types of Viruses
+
+Viruses are malicious programs that copy themselves and infect other files or programs. Common types include:
+
+- **File Infector Virus:** Infects executable files (.exe, .com). Runs when the file is opened and spreads to other programs.
+    
+- **Boot Sector Virus:** Attacks the boot sector or MBR of a drive. Loads before the OS, giving it early control.
+    
+- **Macro Virus:** Hidden in documents (Word, Excel). Activates when the file is opened with macros enabled.
+    
+- **Polymorphic Virus:** Changes its code each time it spreads, making it hard to detect.
+    
+- **Stealth Virus:** Hides from antivirus programs by faking clean files.
+    
+- **Worm:** Spreads on its own through networks, exploiting vulnerabilities.
+    
+
+---
+
+### 2.15) Virus Detection and Prevention
+
+**Detection Methods:**
+
+1. **Signature-Based:** Checks files against a database of known virus patterns. Good for known viruses.
+    
+2. **Heuristic-Based:** Looks for suspicious behavior (e.g., modifying many files at once) to detect new viruses.    
+
+**Prevention Tips:**
+    
+- Use a firewall.
+    
+- Be careful with email attachments and downloads.
+    
+- Keep your OS and programs updated.
+    
+- Back up your data regularly.
+
+---
+
+### 2.16) Viruses on a Network
+
+Networks make it easier for viruses to spread.
+
+**Ways They Spread:**
+
+- **Shared Folders:** Infected files in shared drives can infect others.
+    
+- **Network Vulnerabilities:** Worms scan networks and exploit unpatched systems automatically.
+    
+- **Email:** Viruses can send infected attachments to contacts, spreading quickly.
+
+
+---
+---
+# QUICK NOTES (Module-2)
+
+
+### Storage: Primary vs. Secondary
+
+- **Primary Storage (RAM):** **Volatile** (loses data on power off), very fast, directly accessed by the CPU, smaller capacity, and more expensive.
+    
+- **Secondary Storage (HDD, SSD):** **Non-volatile** (keeps data on power off), slower, larger capacity, and cheaper.
+    
+
+---
+
+### ## 💿 Storage Device Types
+
+- **Magnetic Storage:** Uses magnetism.
+    
+    - **Magnetic Tape:** Sequential access (slow), used for backups and archives.
+        
+    - **Hard Disk Drive (HDD):** Uses rotating magnetic platters for random access (fast).
+        
+- **Optical Storage:** Uses lasers to read pits and lands on a disc.
+    
+    - **CD:** Holds ~700 MB. **CD-R** is recordable once; **CD-RW** is rewritable.
+        
+    - **Blu-ray:** High capacity, used for HD video.
+        
+- **Flash Memory:** Non-volatile, electrically erasable (e.g., USB drives, SD cards).
+    
+
+---
+
+###  Software Fundamentals
+
+- **Software:** A set of programs that tells the hardware what to do.
+    
+- **System Software:** Manages the computer's hardware and provides a platform for applications (e.g., Windows, Linux). It includes:
+    
+    - **Operating System (OS):** The core software that manages everything (memory, files, devices).
+        
+    - **Utility Programs:** Help maintain and optimize the computer (e.g., antivirus, disk cleanup).
+        
+- **Application Software:** Performs specific tasks for the user (e.g., Microsoft Word, Chrome).
+    
+
+---
+
+###  Programming Languages & Translators
+
+- **Low-Level Languages:**
+    
+    - **Machine Language:** Binary (0s and 1s), fastest execution, but hardest to use.
+        
+    - **Assembly Language:** Uses mnemonics (e.g., `ADD`), faster than high-level but still machine-dependent.
+        
+- **High-Level Languages (e.g., Python, C++):** English-like, easy to use, and portable, but slower execution.
+    
+- **Language Translators:** Convert source code into machine code the CPU can run.
+    
+    - **Assembler:** Translates assembly language to machine code.
+        
+    - **Compiler:** Translates the **entire** program at once, creating a fast executable file (e.g., C++). Error checking happens after the whole program is scanned.
+        
+    - **Interpreter:** Translates and runs the program **line by line**; it's slower but easier to debug (e.g., Python).
+        
+
+---
+
+### PC Operating Systems
+
+- **DOS:** A **single-tasking**, command-line (CLI) based OS. It's non-graphical.
+    
+- **Windows:** A **multi-tasking**, graphical (GUI) based OS known for its ease of use.
+    
+- **Linux:** An **open-source** kernel used in many OS distributions. It's highly customizable, stable, and versatile.
+    
+
+---
+
+### FAT & Booting Process
+
+- **File Allocation Table (FAT):** A file system that uses a table to link together clusters where a file is stored. **FAT32** supports larger disks (up to 2 TB) and files (up to 4 GB).
+    
+- **DOS Booting:** **BIOS** runs a hardware check (**POST**), then loads **`IO.SYS`**, **`MSDOS.SYS`**, and **`COMMAND.COM`** to bring up the command prompt.
+    
+- **Windows Booting:** Firmware runs a **POST**, starts the **Windows Boot Manager**, which then loads the **kernel** and drivers to bring up the logon screen.
+    
+- **DOS System Files:**
+    
+    - **`IO.SYS`**: Handles hardware communication.
+        
+    - **`MSDOS.SYS`**: The OS kernel.
+        
+    - **`COMMAND.COM`**: The command interpreter (shell).
+        
+
+---
+
+### Viruses and Protection
+
+- **Types of Viruses:**
+    
+    - **File Infector:** Infects `.exe` files.
+        
+    - **Boot Sector:** Attacks the startup code on a drive.
+        
+    - **Macro:** Hides in documents (e.g., Word files).
+        
+    - **Worm:** Spreads automatically across networks.
+        
+- **Detection:**
+    
+    - **Signature-Based:** Matches files against a database of known viruses.
+        
+    - **Heuristic-Based:** Looks for suspicious program behavior.
+        
+- **Prevention:** Keep software updated, use a firewall, be cautious with downloads/attachments, and back up data regularly.
+    
+- **Viruses on Networks:** Spread rapidly through shared folders, email, and unpatched system vulnerabilities.
+---
+---
