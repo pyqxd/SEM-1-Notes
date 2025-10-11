@@ -76,10 +76,6 @@ Multimedia means using different types of media together to share information in
 - **AI Recommendations:** Suggesting content based on what the user has watched or done before.
 - **Adaptive Learning:** In education, changing lessons and difficulty based on a student’s progress.
 
-**Examples** include Netflix and YouTube recommendations, voice assistants like Siri and Alexa, and personalized ads.### **3. Integration of Multimedia and Personalized Computing**
-
-The **integration of multimedia and personalized computing** means combining rich media with user-focused technology. This makes digital content both more engaging and more relevant to each user.
-
 **Examples:**
 
 1. **E-Learning (Byju’s, Coursera):** Uses videos, animations, and quizzes to teach. Tracks a student’s performance and recommends tutorials or exercises to improve weak areas.
