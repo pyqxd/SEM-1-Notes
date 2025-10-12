@@ -5,10 +5,18 @@ Multimedia means using different types of media together to share information in
 ##### The core components of multimedia are:
 
 - **Text:** The foundation for information.
+
 - **Graphics:** 2D/3D images, illustrations, and logos.
+     - **Raster (or Bitmap) Graphics:** Made of individual **pixels** (the smallest unit of a digital image). Best for complex images like **photographs**. They lose quality when scaled up. Examples: JPEG, PNG, GIF.
+     
+    - **Vector Graphics:** Made of mathematical paths and equations. Best for simple illustrations, **logos, and icons** that need sharp lines. Can be scaled to any size with zero quality loss. Example: SVG.
+    
 - **Audio:** Music, voice-overs, and sound effects.
+
 - **Video:** Moving pictures, typically with sound.
+
 - **Animation:** The illusion of motion created from a sequence of images.
+     - Mention that **GIFs (Graphics Interchange Format)** are a common raster format for simple web animations. Mention that modern animations often use technologies like CSS or JavaScript.
 
 ##### The importance of using multimedia is significant:
 
@@ -270,6 +278,20 @@ Emerging technologies are modern innovations shaping digital transformation acro
 Emerging technologies are transforming industries by improving efficiency, connectivity, and intelligence. They enable automation, smarter communication, and personalized experiences, shaping the foundation of the digital future.
 
 ---
+### Fundamental Concepts & Terminology
+
+- **Pixel:** The **smallest addressable unit** of a digital image. It is a single point or dot of color. All raster images are made of a grid of pixels.
+    
+- **FPS (Frames Per Second):** The rate at which individual still images (frames) are displayed to create the illusion of motion in a video or animation. Common rates are 24 FPS (cinema), 30 FPS (TV), and 60 FPS (gaming/smooth motion).
+    
+- **Compression (Lossy vs. Lossless):** This is a major concept that answers multiple questions.
+    
+    - **Lossy Compression:** Permanently removes some data from the file to achieve a much smaller file size. The quality can never be fully restored. **JPEG uses lossy compression.**
+        
+    - **Lossless Compression:** Reduces file size without losing any original data. The original quality can be perfectly restored when the file is opened. **PNG uses lossless compression.**
+        
+- **Binary Encoding:** The process of converting data (like text, images, or sound) into a format of **binary digits (0s and 1s)**. This is the fundamental language that computers use to process and store all information. For example, in ASCII, the letter 'A' is encoded as the binary number `01000001`(65 in decimal).
+---
 ## Topic: Multimedia Systems, Communication, and Entertainment
 
 **Focus:** How multimedia systems, communication networks, and entertainment products work together.
@@ -482,6 +504,7 @@ Audio enhances both usability and interactivity. It supports communication, lear
 
 Computers can only process digital data, so sound (which is analog) must be converted into digital form.
 
+##### --> The standard method for converting analog sound to digital is called **PCM (Pulse Code Modulation)**
 ### **Steps:**
 
 1. **Sampling:**
@@ -518,6 +541,13 @@ Once digitized, audio can be transmitted or streamed over a network.
     
 - **File Formats:**  
     WAV (uncompressed), MP3/AAC (compressed), FLAC (high quality).
+
+---
+### Key Audio Terminology
+
+- **Signal-to-Noise Ratio (SNR):** This is a measure that compares the level of a desired signal to the level of background noise. It's measured in decibels (dB). **A higher SNR means a cleaner, clearer audio recording.** 
+        
+    - **Bitrate:** The number of bits processed per unit of time, usually seconds (kbps). A higher bitrate generally means higher audio quality and a larger file size (e.g., a 320 kbps MP3 is better than a 128 kbps MP3).
 
 ---
 ### **⭐ Real-Time Audio and Transmission**
