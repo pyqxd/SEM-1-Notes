@@ -817,7 +817,7 @@ Examples of personalized computing include voice assistants like Siri and Alexa,
 In summary, analog is a continuous representation, while digital is a discrete, numerical approximation of the original sound wave.
 
 ---
-**Question 5. What do you understand by the integration of multimedia and personalized computing? Discuss its key advantages and challenges with examples.**
+**Question 6. What do you understand by the integration of multimedia and personalized computing? Discuss its key advantages and challenges with examples.**
 
 **Answer:** 
      The integration of multimedia and personalized computing means combining rich media content (like videos and audio) with user-focused technology to make digital experiences both more engaging and personally relevant. For example, e-learning platforms like Coursera use multimedia videos and quizzes, and then personalize the experience by recommending specific tutorials based on a student's performance. Similarly, Netflix uses its vast multimedia library and provides personalized recommendations based on a user's viewing history.
@@ -841,7 +841,7 @@ In summary, analog is a continuous representation, while digital is a discrete, 
     
 - **High Costs:** Building and maintaining these sophisticated systems requires significant investment in advanced technology and skilled staff.
 ---
-**Question 6. Explain Real-Time Audio and its Transmission Process.**
+**Question 7. Explain Real-Time Audio and its Transmission Process.**
 
 **Answer:**
     Real-time audio is audio that is captured, processed, transmitted, and played instantly with no noticeable delay between the sender and receiver. It is essential for modern communication and entertainment applications like live voice calls, online gaming chats, and virtual meetings.
@@ -865,7 +865,7 @@ This entire process faces challenges such as requiring **low latency** (minimal 
 
 ---
 
-**Question 6. What is Digital Audio Signal Processing (DSP)? Explain any three common DSP functions and describe the role of key hardware components (ADC/DAC and CPU) in this process.**
+**Question 8. What is Digital Audio Signal Processing (DSP)? Explain any three common DSP functions and describe the role of key hardware components (ADC/DAC and CPU) in this process.**
 
 **Answer:** 
      **Digital Audio Signal Processing (DSP)** is the manipulation of digital audio signals using mathematical algorithms to modify or enhance the sound. It is how effects are applied and audio is cleaned up in a digital environment.
