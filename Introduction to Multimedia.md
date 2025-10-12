@@ -724,6 +724,7 @@ This is the lifecycle of any multimedia content:
 #### Questions - Answers
 
 **Question 1. Explain the various uses of audio in computer applications.**
+
 **Answer:**
      Audio is a critical component in modern computing that enhances usability and interactivity across various applications. Its uses can be categorized as follows:
 
@@ -756,6 +757,7 @@ The importance of using these data types together is significant, as it makes co
 
 ---
 **Question 3. What is Personalized Computing? Explain its key features with examples.**
+
 **Answer:**
      Personalized computing refers to adjusting a computer experience to fit an individual user's specific needs, preferences, and habits. Instead of a one-size-fits-all approach, it adapts the technology to the person.
 
@@ -775,6 +777,7 @@ Examples of personalized computing include voice assistants like Siri and Alexa,
 ---
 
 **Question 4. Explain the five main stages of a multimedia system framework.**
+
 **Answer:** 
      A multimedia system framework describes the complete process of how multimedia content is created, stored, transmitted, and finally presented to a user. It consists of five distinct stages:
 
@@ -790,6 +793,7 @@ Examples of personalized computing include voice assistants like Siri and Alexa,
 ---
 
 **Question 5. Differentiate between analog and digital sound.**
+
 **Answer:** 
      The primary difference between analog and digital sound lies in how the sound wave information is represented and stored. Computers can only process digital data, so analog sound must be converted to a digital format to be used in computer applications.
 
@@ -814,6 +818,7 @@ In summary, analog is a continuous representation, while digital is a discrete, 
 
 ---
 **Question 5. What do you understand by the integration of multimedia and personalized computing? Discuss its key advantages and challenges with examples.**
+
 **Answer:** 
      The integration of multimedia and personalized computing means combining rich media content (like videos and audio) with user-focused technology to make digital experiences both more engaging and personally relevant. For example, e-learning platforms like Coursera use multimedia videos and quizzes, and then personalize the experience by recommending specific tutorials based on a student's performance. Similarly, Netflix uses its vast multimedia library and provides personalized recommendations based on a user's viewing history.
 
@@ -837,6 +842,7 @@ In summary, analog is a continuous representation, while digital is a discrete, 
 - **High Costs:** Building and maintaining these sophisticated systems requires significant investment in advanced technology and skilled staff.
 ---
 **Question 6. Explain Real-Time Audio and its Transmission Process.**
+
 **Answer:**
     Real-time audio is audio that is captured, processed, transmitted, and played instantly with no noticeable delay between the sender and receiver. It is essential for modern communication and entertainment applications like live voice calls, online gaming chats, and virtual meetings.
 
@@ -860,6 +866,7 @@ This entire process faces challenges such as requiring **low latency** (minimal 
 ---
 
 **Question 6. What is Digital Audio Signal Processing (DSP)? Explain any three common DSP functions and describe the role of key hardware components (ADC/DAC and CPU) in this process.**
+
 **Answer:** 
      **Digital Audio Signal Processing (DSP)** is the manipulation of digital audio signals using mathematical algorithms to modify or enhance the sound. It is how effects are applied and audio is cleaned up in a digital environment.
 
