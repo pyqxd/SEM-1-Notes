@@ -739,6 +739,7 @@ This is the lifecycle of any multimedia content:
 - **Accessibility:** Audio plays a vital role in making technology accessible to visually impaired users. Screen readers like NVDA and JAWS convert on-screen text to speech, enabling users to navigate and interact with the computer.
 ---
 **Question 2. Discuss the types of data used in multimedia.**
+
 **Answer:** 
     Multimedia integrates different types of media (data) together to share information in an engaging and interactive way. The five core components, or types of data, used in multimedia are:
 
