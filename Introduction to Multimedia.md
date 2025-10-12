@@ -76,7 +76,10 @@ Multimedia means using different types of media together to share information in
 - **AI Recommendations:** Suggesting content based on what the user has watched or done before.
 - **Adaptive Learning:** In education, changing lessons and difficulty based on a student’s progress.
 
-**Examples** include Netflix and YouTube recommendations, voice assistants like Siri and Alexa, and personalized ads.### **3. Integration of Multimedia and Personalized Computing**
+**Examples** include Netflix and YouTube recommendations, voice assistants like Siri and Alexa, and personalized ads.
+
+
+### **4. Integration of Multimedia and Personalized Computing**
 
 The **integration of multimedia and personalized computing** means combining rich media with user-focused technology. This makes digital content both more engaging and more relevant to each user.
 
@@ -91,7 +94,7 @@ This mix makes digital experiences more interactive, personal, and effective.
 
 ---
 
-### 3. Benefits & Challenges of this Integration
+### 5. Benefits & Challenges of this Integration
 
 The integration of multimedia and personalized computing is powerful but has pros and cons.
 
@@ -115,7 +118,7 @@ The integration of multimedia and personalized computing is powerful but has pro
 - **High Costs:** Building and running these systems needs advanced tech and skilled staff.
 ---
 
-### 4. Future of Multimedia and Personalized Computing
+### 6. Future of Multimedia and Personalized Computing
 
 The future of multimedia and personalized computing will be even more integrated into daily life, driven by tech advances. Key trends include:
 
