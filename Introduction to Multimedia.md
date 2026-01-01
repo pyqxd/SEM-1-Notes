@@ -921,3 +921,253 @@ This entire process faces challenges such as requiring **low latency** (minimal 
     
 - **DAC (Digital-to-Analog Converter):** After the CPU has processed the audio, the DAC's role is to convert the modified digital signal back into an analog signal. This analog signal is then sent to speakers or headphones so that you can hear the final sound.
     
+
+Below is a **clean, GitHub-ready Markdown version** of your content.
+Headings, subheadings, spacing, tables, and lists are properly structured.
+You can paste this **directly into a README.md or any `.md` file**.
+
+---
+
+# Module III: Video Technology 
+
+---
+
+## 1. Raster Scanning Principles
+
+Raster scanning is the fundamental process used to create a video image by sweeping an electron beam (or reading digital data) across a screen.
+
+### Key Concepts
+
+* **Scanning Process**
+
+  * The beam moves from left to right (**Trace**)
+  * Then quickly returns to the start of the next line (**Retrace**)
+
+* **Progressive Scanning**
+
+  * Every line of a frame is drawn sequentially
+  * Standard for modern monitors and HD video (e.g., 1080p)
+
+* **Interlaced Scanning**
+
+  * A frame is split into two fields:
+
+    * **Field 1:** Odd-numbered lines
+    * **Field 2:** Even-numbered lines
+  * **Purpose:** Reduce flicker and save bandwidth in early broadcast systems
+
+* **Blanking Intervals**
+
+  * **Horizontal Blanking:** Time taken to return from the end of one line to the start of the next
+  * **Vertical Blanking:** Time taken to return from the bottom of the screen to the top to start a new frame
+
+---
+
+## 2. Sensors for TV Cameras
+
+Television cameras use image sensors to convert light (photons) into electrical signals.
+
+### CCD (Charge-Coupled Device)
+
+* **Mechanism:** Light generates charge which is shifted across the chip to a single output
+* **Pros:**
+
+  * High sensitivity
+  * Low noise
+  * Global shutter (entire frame captured at once)
+* **Cons:**
+
+  * Expensive
+  * High power consumption
+
+### CMOS (Complementary Metal-Oxide-Semiconductor)
+
+* **Mechanism:** Each pixel has its own transistor for charge readout
+* **Pros:**
+
+  * Low power consumption
+  * Cheaper to manufacture
+  * Supports high frame rates
+* **Cons:**
+
+  * Rolling shutter (may cause “jello effect”)
+
+---
+
+## 3. Color Fundamentals & Video
+
+Video relies on human visual perception of color and brightness.
+
+### Color Models
+
+* **RGB (Additive Color Model):** Red, Green, Blue — used in displays
+* **Luminance (Y):** Brightness information (black & white detail)
+* **Chrominance (C):** Color information (hue and saturation)
+* **YUV / YIQ:** Broadcasting models separating brightness and color
+
+### Chroma Subsampling
+
+A compression technique that reduces color resolution while preserving brightness.
+
+* **4:4:4** — No compression (highest quality)
+* **4:2:2** — Professional broadcast standard
+* **4:2:0** — Common for streaming, Blu-ray, and web video
+
+---
+
+## 4. Video Equipment & Standards
+
+### Essential Video Equipment
+
+* **Video Switcher / Vision Mixer**
+
+  * Switches between multiple camera feeds
+  * Adds transitions and overlays graphics
+
+* **Sync Generator (Genlock)**
+
+  * Synchronizes timing of all studio equipment
+
+* **CCU (Camera Control Unit)**
+
+  * Remotely controls iris, gain, and white balance
+
+### Worldwide Analog Television Standards
+
+| Standard | Resolution | Frame Rate | Used In                  |
+| -------- | ---------- | ---------- | ------------------------ |
+| NTSC     | 525 lines  | 30 fps     | North America, Japan     |
+| PAL      | 625 lines  | 25 fps     | Europe, India, Australia |
+| SECAM    | 625 lines  | 25 fps     | France, Russia           |
+
+---
+
+# 10-Marker Important Questions & Answers
+
+---
+
+## Q1. Explain the working mechanism of Interlaced Scanning and its importance.
+
+**Answer:**
+
+Interlaced scanning divides a frame into two fields:
+
+* One field contains odd-numbered lines
+* The other contains even-numbered lines
+
+These fields are displayed alternately at high frequency.
+
+**Importance:**
+
+* Saves bandwidth
+* Reduces flicker
+* Uses persistence of vision to create a smooth image
+
+---
+
+## Q2. Compare CCD and CMOS image sensors.
+
+**Answer:**
+
+| Feature       | CCD            | CMOS                       |
+| ------------- | -------------- | -------------------------- |
+| Readout       | Single output  | Per-pixel readout          |
+| Image Quality | Very low noise | Improved in modern sensors |
+| Power         | High           | Low                        |
+| Cost          | Expensive      | Cheaper                    |
+| Shutter       | Global         | Mostly rolling             |
+
+---
+
+## Q3. Importance of the YUV color model.
+
+**Answer:**
+
+* Ensures compatibility with black & white TVs
+* Saves bandwidth via chroma subsampling
+* Matches human visual sensitivity to brightness
+
+---
+
+## Q4. Explain the Bayer Pattern.
+
+**Answer:**
+
+* A color filter array placed over monochrome sensors
+* Uses:
+
+  * 50% Green
+  * 25% Red
+  * 25% Blue
+* Green dominates because human eyes are most sensitive to it
+* **Demosaicing** reconstructs full-color images
+
+---
+
+## Q5. Differences between NTSC and PAL.
+
+**Answer:**
+
+* **NTSC**
+
+  * 525 lines
+  * 29.97 fps
+  * Prone to color distortion
+
+* **PAL**
+
+  * 625 lines
+  * 25 fps
+  * More stable colors due to phase alternation
+
+---
+
+## Q6. Explain Chroma Subsampling formats.
+
+**Answer:**
+
+* **4:4:4:** No color loss (cinema, VFX)
+* **4:2:2:** Shared color horizontally (broadcast)
+* **4:2:0:** Shared color in 2×2 blocks (streaming)
+
+---
+
+## Q7. What are blanking intervals?
+
+**Answer:**
+
+* **Horizontal Blanking:** Time for line retrace
+* **Vertical Blanking:** Time for frame retrace
+* Still used for signal timing and data like captions
+
+---
+
+## Q8. Explain three studio video devices.
+
+**Answer:**
+
+* **Video Switcher:** Manages live feeds and transitions
+* **Waveform Monitor:** Displays brightness levels
+* **Sync Generator:** Keeps all devices in sync
+
+---
+
+## Q9. Aspect Ratio and its evolution.
+
+**Answer:**
+
+* **4:3:** Standard definition TV
+* **16:9:** HD and UHD standard
+* Display mismatches cause letterboxing or pillarboxing
+
+---
+
+## Q10. What is Frame Rate?
+
+**Answer:**
+
+* Frames displayed per second (fps)
+* **24 fps:** Cinematic look
+* **30 fps:** Standard TV
+* **60 fps:** Sports and gaming
+* Low fps causes flicker and stutter
